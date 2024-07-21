@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.main {
+    background-image: url('assests/images/netlfix\ background\ image.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 154px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    margin-left: 10px;
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    text-align: center;
+    padding: 23px;
+}
+
+.hero > span {
+    font-weight: bolder;
+}
+
+.hero > span:nth-child(1) {
+    font-size: 48px;
+}
+
+.hero > span:nth-child(2) {
+    font-size: 24px;
+}
+
+.hero > span:nth-child(3) {
+    font-size: 20px;
+}
+
+.hero div {
+    display: flex;
+    gap: 10px;
+}
+
+.hero input {
+    padding: 9px 24px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border: 1px solid #036cdb;
+}
+
+.separation {
+    height: 5px;
+    background-color: darkgray;
+    width: 100%;
+}
+
+.btn {
+    padding: 3px 8px;
+    color: white;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: aliceblue;
+    align-items: center;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.secImg img,
+.third-image img,
+.fourth-image img {
+    width: 100%;
+    height: auto;
+}
